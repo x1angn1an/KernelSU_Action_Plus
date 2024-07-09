@@ -46,5 +46,5 @@ ENABLE_CCACHE=true
 NEED_DTBO=false
 BUILDER_HOST=Github-Action
 
-TC_CUSTOM_CMDS:CLANG_TRIPLE=aarch64-linux-gnu-
+TC_CUSTOM_CMDS:CROSS_COMPILE=aarch64-linux-android-
 EXTRA_CMDS:LD=ld.lld
