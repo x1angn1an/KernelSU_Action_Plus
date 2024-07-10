@@ -1,4 +1,4 @@
-name: Build example
+name: Build Kernel
 on:
   push:
   pull_request:
