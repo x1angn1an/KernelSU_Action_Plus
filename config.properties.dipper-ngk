@@ -1,5 +1,5 @@
 KERNEL_SOURCE=https://github.com/Pierre2324/NGK_android_kernel_xiaomi_sdm845
-KERNEL_SOURCE_BRANCH=t-caf-latest
+KERNEL_SOURCE_BRANCH=t-caf-ksu
 KERNEL_CONFIG=nogravity-dipper_defconfig
 KERNEL_IMAGE_NAME=Image.gz-dtb
 ARCH=arm64
