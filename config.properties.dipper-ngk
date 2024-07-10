@@ -1,15 +1,19 @@
-KERNEL_SOURCE=https://github.com/x1angn1an/NGK_android_kernel_xiaomi_sdm845
-KERNEL_SOURCE_BRANCH=t-caf-latest-mod
+KERNEL_SOURCE=https://github.com/Xiaomi-sdm845-KSU/NGK_android_kernel_xiaomi_sdm845.git
+KERNEL_SOURCE_BRANCH=t-caf-ksu
+
+# KERNEL_SOURCE=https://github.com/x1angn1an/NGK_android_kernel_xiaomi_sdm845
+# KERNEL_SOURCE_BRANCH=t-caf-latest-mod
+
 KERNEL_CONFIG=nogravity-dipper_defconfig
 KERNEL_IMAGE_NAME=Image.gz-dtb
 ARCH=arm64
 
 ENABLE_CLANG=true
-USE_AOSP_CLANG=true
+USE_AOSP_CLANG=false
 AOSP_CLANG_SYSTEM=linux-x86
 AOSP_CLANG_BRANCH=main
 AOSP_CLANG_VERSION=r498229b
-USE_CUSTOM_CLANG=false
+USE_CUSTOM_CLANG=true
 CUSTOM_CLANG_SOURCE=https://github.com/kdrag0n/proton-clang.git
 CUSTOM_CLANG_BRANCH=master
 
