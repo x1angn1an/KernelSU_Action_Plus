@@ -1,10 +1,10 @@
-KERNEL_SOURCE=https://github.com/x1angn1an/android_kernel_xiaomi_sdm845.git
-KERNEL_SOURCE_BRANCH=14.0
-KERNEL_CONFIG=vendor/xiaomi/mi845_defconfig
+# KERNEL_SOURCE=https://github.com/x1angn1an/android_kernel_xiaomi_sdm845
+# KERNEL_SOURCE_BRANCH=14.0
+# KERNEL_CONFIG=vendor/xiaomi/mi845_defconfig
 
-# KERNEL_SOURCE=https://github.com/x1angn1an/NGK_android_kernel_xiaomi_sdm845.git
-# KERNEL_SOURCE_BRANCH=s-caf
-# KERNEL_CONFIG=nogravity-dipper_defconfig
+KERNEL_SOURCE=https://github.com/x1angn1an/NGK_android_kernel_xiaomi_sdm845
+KERNEL_SOURCE_BRANCH=t-caf-latest-mod
+KERNEL_CONFIG=nogravity-dipper_defconfig
 
 KERNEL_IMAGE_NAME=Image.gz-dtb
 ARCH=arm64
@@ -35,7 +35,7 @@ CUSTOM_GCC_32_SOURCE=
 CUSTOM_GCC_32_BRANCH=
 CUSTOM_GCC_32_BIN=arm-linux-androideabi-
 
-ENABLE_KERNELSU=true
+ENABLE_KERNELSU=false
 KERNELSU_INSTALLER=https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh
 KERNELSU_TAG=v0.9.5
 KSU_EXPECTED_SIZE=
